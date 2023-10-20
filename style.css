@@ -2,6 +2,9 @@
     box-sizing: border-box;
     margin: 0;
   }
+body{
+    zoom:110%;
+}
   
   :root {
     --primary: #03011c;
@@ -207,6 +210,10 @@
   
   .projects-item img {
     border-radius: 10px;
+  }
+
+  .projects-item img:hover{
+      cursor:pointer;
   }
 
   /* contact styles */
